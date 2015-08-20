@@ -7,23 +7,32 @@ def trim(x):
         i+=1
     return x[i:]
 
-dataset = dataset.load()
+def evaluate(row, alg, params):
+    MSE = 0
+    minsamples = 20
+    n = 0
+    for i in range(minsamples, len(row)-1):
+        actual = row[i+1]
+        prediction = alg(row[:i+1], params)
+        MSE += math.pow(actual-prediction, 2)
+        n += 1
+    MSE = MSE/n
+    return MSE
 
-maxsum=0
-for row in dataset:
-    if sum(row)>maxsum:
-        maxsum=sum(row)
-        maxrow=row
-row = trim(maxrow)
+def evaluate_all(ds, alg, params):
+    MSE = 0
+    n = 0
+    for row in ds:
+        row = trim(row)
+        MSE += evaluate(row, alg, params)
+        n += 1
+    return MSE/n
 
-MSE = 0
-import jordicolomer_average
-minsamples = 20
-n = 0
-for i in range(minsamples, len(row)-1):
-    actual = row[i+1]
-    prediction = jordicolomer_average.predict(row[:i+1])
-    MSE += math.pow(actual-prediction,2)
-    n += 1
-MSE = MSE/n
-print MSE
+def main():
+    ds = dataset.load()
+    import jordicolomer_average
+    for n in range(1,11):
+        params = {'n':n}
+        print 'jordicolomer_average',params,evaluate_all(ds, jordicolomer_average.predict, params)
+
+main()

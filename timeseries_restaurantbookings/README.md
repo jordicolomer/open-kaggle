@@ -9,3 +9,16 @@ This dataset contains information about the number of bookings of 261 restaurant
 3 Compute the MSE from e_{m+1}^*,\dots,e_{n}^*.
 
 from http://rob.yndman.com/hyndsight/crossvalidation/
+
+## Results
+
+jordicolomer_average {'n': 1} 15.3577523484
+jordicolomer_average {'n': 2} 14.4347257415
+jordicolomer_average {'n': 3} 14.2637135556
+jordicolomer_average {'n': 4} 14.0159165157
+jordicolomer_average {'n': 5} 13.5492501025
+jordicolomer_average {'n': 6} 12.3986825592
+jordicolomer_average {'n': 7} 10.6726869432
+jordicolomer_average {'n': 8} 10.4966490339 ** Winner
+jordicolomer_average {'n': 9} 10.9391933935
+jordicolomer_average {'n': 10} 11.4215775311
