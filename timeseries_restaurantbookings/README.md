@@ -12,22 +12,42 @@ from http://rob.yndman.com/hyndsight/crossvalidation/
 
 ## Results
 
-jordicolomer_average {'n': 1} 15.3577523484
+jordicolomer_average 1 15.3577523484 
 
-jordicolomer_average {'n': 2} 14.4347257415
+jordicolomer_average 2 14.4347257415 
 
-jordicolomer_average {'n': 3} 14.2637135556
+jordicolomer_average 3 14.2637135556 
 
-jordicolomer_average {'n': 4} 14.0159165157
+jordicolomer_average 4 14.0159165157 
 
-jordicolomer_average {'n': 5} 13.5492501025
+jordicolomer_average 5 13.5492501025 
 
-jordicolomer_average {'n': 6} 12.3986825592
+jordicolomer_average 6 12.3986825592 
 
-jordicolomer_average {'n': 7} 10.6726869432
+jordicolomer_average 7 10.6726869432 
 
-jordicolomer_average {'n': 8} 10.4966490339 ** Winner
+jordicolomer_average 8 10.4966490339 
 
-jordicolomer_average {'n': 9} 10.9391933935
+jordicolomer_average 9 10.9391933935 
 
-jordicolomer_average {'n': 10} 11.4215775311
+jordicolomer_average 10 11.4215775311 
+
+jordicolomer_averageweekly 1 10.8443748688 
+
+jordicolomer_averageweekly 2 9.09322754692 
+
+jordicolomer_averageweekly 3 8.90418511883  ** New record!!
+
+jordicolomer_averageweekly 4 9.18192794196 
+
+jordicolomer_averageweekly 5 9.507487646 
+
+jordicolomer_averageweekly 6 9.93895026521 
+
+jordicolomer_averageweekly 7 10.3429477282 
+
+jordicolomer_averageweekly 8 10.6762027153 
+
+jordicolomer_averageweekly 9 10.9828834771 
+
+jordicolomer_averageweekly 10 11.2569661696 
