@@ -1,1 +1,5 @@
 # open-kaggle
+
+Open kaggle is an ambitious iniciative that aims to provide a framework for data scientists to colaborate solving common problems. It's open source nature allows everybody to benefit from it, whereas the competitive element to it, should bring enough incentive to make people contribute high quality solutions to the open source community.
+
+The repository contains a number of machine learning challenges, some of them well known. For each one of them, different solutions are provided, contributed by the open source community. Each solution is evaluated and the performances presented. Everybody is free to contribute their own solutions, you just need to create a pull request with your solution as a new folder under the problem folder. The new folder name should be your username in github, followed by an underscore, and a descriptive short name. For more details on how to make a pull request, please read the section "Contributing code" at http://scikit-learn.org/stable/developers/
