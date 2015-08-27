@@ -36,7 +36,7 @@ jordicolomer_averageweekly 1 10.8443748688
 
 jordicolomer_averageweekly 2 9.09322754692 
 
-jordicolomer_averageweekly 3 8.90418511883  ** New record!!
+jordicolomer_averageweekly 3 8.90418511883 
 
 jordicolomer_averageweekly 4 9.18192794196 
 
@@ -51,3 +51,41 @@ jordicolomer_averageweekly 8 10.6762027153
 jordicolomer_averageweekly 9 10.9828834771 
 
 jordicolomer_averageweekly 10 11.2569661696 
+
+jordicolomer_averageWeeklyWithTrend 1 16.5751137913 
+
+jordicolomer_averageWeeklyWithTrend 2 10.2166486348 
+
+jordicolomer_averageWeeklyWithTrend 3 9.22347797614 
+
+jordicolomer_averageWeeklyWithTrend 4 8.92978345885 
+
+jordicolomer_averageWeeklyWithTrend 5 8.85736788148 
+
+jordicolomer_averageWeeklyWithTrend 6 8.8177103795   ** New record!!
+
+jordicolomer_averageWeeklyWithTrend 7 8.82209914972 
+
+jordicolomer_averageWeeklyWithTrend 8 8.83118154665 
+
+jordicolomer_averageWeeklyWithTrend 9 8.83936406557 
+
+jordicolomer_averageWeeklyWithTrend 10 8.86448829165 
+
+jordicolomer_averageWeeklyWithTrend 11 8.87222514113 
+
+jordicolomer_averageWeeklyWithTrend 12 8.8890546831 
+
+jordicolomer_averageWeeklyWithTrend 13 8.89110124166 
+
+jordicolomer_averageWeeklyWithTrend 14 8.90003804482 
+
+jordicolomer_averageWeeklyWithTrend 15 8.91692174372 
+
+jordicolomer_averageWeeklyWithTrend 16 8.92380595429 
+
+jordicolomer_averageWeeklyWithTrend 17 8.93474378542 
+
+jordicolomer_averageWeeklyWithTrend 18 8.93438309104 
+
+jordicolomer_averageWeeklyWithTrend 19 8.94598400753 

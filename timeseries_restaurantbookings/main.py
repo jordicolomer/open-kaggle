@@ -39,5 +39,9 @@ def main():
     for n in range(1,11):
         params = {'n':n, 'dates':dates}
         print 'jordicolomer_averageweekly',n,evaluate_all(ds, jordicolomer_averageweekly.predict, params),'\n'
+    import jordicolomer_averageWeeklyWithTrend
+    for m in range(1,20):
+        params = {'m':m, 'dates':dates}
+        print 'jordicolomer_averageWeeklyWithTrend',m,evaluate_all(ds, jordicolomer_averageWeeklyWithTrend.predict, params),'\n'
 
 main()
