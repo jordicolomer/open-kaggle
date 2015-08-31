@@ -23,7 +23,7 @@ def evaluate_all(ds, alg, params):
     MSE = 0
     n = 0
     for row in ds:
-        print n
+        #print n
         row, params['dates'] = trim(row, params['dates'])
         MSE += evaluate(row, alg, params)
         n += 1
@@ -32,10 +32,10 @@ def evaluate_all(ds, alg, params):
 def main():
     ds = dataset.load()
     dates = dataset.get_dates_array()
-    import jordicolomer_ar
+    import jordicolomer_autoregressive
     for m in range(1,2):
         params = {'m':m, 'dates':dates}
-        print 'jordicolomer_ar',m,evaluate_all(ds, jordicolomer_ar.predict, params),'\n'
+        print 'jordicolomer_autoregressive',m,evaluate_all(ds, jordicolomer_autoregressive.predict, params),'\n'
     #exit(0)
     import jordicolomer_average
     for n in range(1,11):
